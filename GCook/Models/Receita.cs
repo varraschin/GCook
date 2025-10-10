@@ -28,6 +28,8 @@ namespace GCook.Models;
         public string TempoPreparo { get; set; }
         
         public int Rendimento { get; set; }
+        
+        public Dificuldade Dificuldade { get; set; }
 
         [StringLength(300)]
         public string Foto { get; set; }
