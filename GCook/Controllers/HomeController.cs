@@ -32,7 +32,7 @@ public class HomeController : Controller
                 .AsNoTracking()
                 .ToList()
         };
-        return View();
+        return View(home);
     }
 
     public IActionResult Receita(int id)
