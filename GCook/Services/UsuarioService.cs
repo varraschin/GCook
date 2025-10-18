@@ -35,7 +35,7 @@ public class UsuarioService : IUsuarioService
         }
 
         var result = await _signInManager.PasswordSignInAsync(
-            userName, login.senha, login.Lembrar, lockoutOnFailure: true
+            userName, login.Senha, login.Lembrar, lockoutOnFailure: true
         );
     }
 
